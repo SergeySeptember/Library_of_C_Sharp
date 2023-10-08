@@ -1,6 +1,6 @@
 ﻿namespace Code_Library_Console
 {
-    internal class PracticeDB
+    public class PracticeDB
     {
         /*
             Напишите LINQ запрос, чтобы выбрать всех клиентов из базы данных, у которых страна равна "USA".
