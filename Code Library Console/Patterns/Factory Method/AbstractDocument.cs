@@ -5,6 +5,7 @@
         public string Header { get; set; }
         public string Body { get; set; }
         public string Footer { get; set; }
+        public string Extenstion { get; set; }
         public AbstractDocument(string header, string body, string footer)
         {
             Header = header;

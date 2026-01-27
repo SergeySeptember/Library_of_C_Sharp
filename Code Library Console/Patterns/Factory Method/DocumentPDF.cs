@@ -1,13 +1,13 @@
 ﻿namespace Code_Library_Console.Patterns.Factory_Method
 {
-    public class TextDocument : AbstractDocument
+    internal class DocumentPDF : AbstractDocument
     {
-        public TextDocument(string header, string body, string footer) : base(header, body, footer)
+        public DocumentPDF(string header, string body, string footer) : base(header, body, footer)
         {
             Header = header + "Text document \n ----------";
             Body = body + "\n ----------";
             Footer = footer;
-            Extenstion = ".txt";
+            Extenstion = ".pdf";
         }
     }
 }

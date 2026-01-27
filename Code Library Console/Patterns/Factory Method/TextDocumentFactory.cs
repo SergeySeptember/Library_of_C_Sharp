@@ -7,4 +7,12 @@
             return new TextDocument(header, body, footer);
         }
     }
+
+    public class DocumentPDFFactory : AbstractDocumentFactory
+    {
+        public override AbstractDocument CreateDocument(string header, string body, string footer)
+        {
+            return new DocumentPDF(header, body, footer);
+        }
+    }
 }

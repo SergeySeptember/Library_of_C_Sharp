@@ -1,10 +1,9 @@
-﻿namespace Code_Library_Console
+﻿namespace Code_Library_Console;
+
+public class Program
 {
-    public class Program
+    private static async Task Main()
     {
-        static void Main()
-        { 
-            
-        }
+
     }
 }
